@@ -1,0 +1,95 @@
+/*body{
+  margin-top: 100px;
+}*/
+.container-top {
+
+  margin-top: 50px;
+}
+.header{
+  background: url("../img/header1.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  min-height: 700px;
+  color: white;
+  /*padding-top: 50px;*/
+}
+
+.jumbotron {
+   background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background: rgba(200, 54, 54, 0.3); 
+   margin-top: 100px;
+}
+
+.bg-overlay{
+  background:rgba(0,0,0, 0.7);
+  min-height: 700px;
+}
+
+.about{
+  background: url("../img/about.jpg") no-repeat center fixed;
+  background-size: cover;
+  min-height: 700px;
+}
+
+.about-overlay{
+  
+  min-height: 700px !important;
+}
+
+.about-text {
+
+	margin-top: 150px;
+	color: white;
+  background: rgb(200, 54, 54); /* This is for ie8 and below */
+  background: rgba(200, 54, 54, 0.3); 
+}
+
+.login-form {
+
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+ 
+}
+
+.signup-form {
+  margin-top: 100px;
+
+}
+
+.form-row {
+
+  margin-top: 50px;
+}
+
+.signup-btn {
+
+  margin-top: 15px;
+}
+
+.book-photo {
+
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.book {
+  /* Styling for the book panel, library page */
+  margin-left: 30px;
+}
+
+.book-info-table {
+
+  margin-right: 10px;
+}
+
+.book-row {
+
+  margin-top: 50px;
+}
+
+.panel {
+  box-shadow: 0 2px 2px;
+}
+
