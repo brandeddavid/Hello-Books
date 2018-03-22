@@ -23,7 +23,7 @@ Here is the list of [dependencies](https://github.com/brandeddavid/Hello-Books/b
 
 ## Install Intructions
 
-** Coming Soon **
+**Coming Soon**
 
 ## GitHub Page
 
@@ -32,6 +32,7 @@ Project's [GitHub Page](https://brandeddavid.github.io/Hello-Books/)
 ## Project Owner
 
 David Mwangi Mathenge
+
 [david.mathenge98@gmail.com](mailto:david.mathenge98@gmail.com)
 
 ## Contributers
