@@ -1,9 +1,16 @@
-/*body{
-  margin-top: 100px;
-}*/
+body{
+  background: url("../img/about.jpg") no-repeat center fixed;
+  background-size: cover;
+  min-height: 700px;
+  
+
+}
 .container-top {
 
   margin-top: 100px;
+  background: rgb(255, 255, 255); /* This is for ie8 and below */
+  background: rgba(255, 255, 255, 0.8); 
+  /*min-height: 700px;*/
 }
 .header{
   background: url("../img/header1.jpeg") no-repeat center center fixed;
@@ -37,11 +44,10 @@
 }
 
 .about-text {
-
 	margin-top: 150px;
 	color: white;
-  background: rgb(200, 54, 54); /* This is for ie8 and below */
-  background: rgba(200, 54, 54, 0.3); 
+	background: rgb(200, 54, 54); /* This is for ie8 and below */
+	background: rgba(200, 54, 54, 0.3); 
 }
 
 .login-form {
@@ -105,4 +111,25 @@
 
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+/* Styling the Profile Page */
+
+.prof-pic-panel {
+	float: left;
+}
+
+.prof-pic {
+	border-radius: 50%;
+
+}
+/* ADMIN PAGES */
+/* landing page */
+
+.add-book-btn {
+
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
 }
