@@ -3,6 +3,9 @@
 <head>
 	<title>Admin | Manage Users</title>
 	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+	<link href="http://fonts.googleapis.com/css?family=Dancing+Script:700|EB+Garamond" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="../../css/style.css">
 
 	<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
@@ -24,13 +27,64 @@
 	        <a class="nav-link" href="manage_books.html">Manage Books</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="manage_users.html">Manage Users</a>
+	        <a class="nav-link" href="#">Manage Users</a>
 	      </li>
 	    </ul>
 	  </div>
 
+	  <div>
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link" href="../index.html">Log Out</a>
+				</li>
+			</ul>
+		</div>
+
 		
 	</nav>
+
+	<div  class="container">
+		<div class="admin-panel">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="panel panel-default book white-background">
+						<div class="panel-heading">
+							<hr>
+							<h3><i class="fas fa-book fa-3x"></i></h3>
+							<hr>
+						</div>
+						<div class="panel-body">
+							<h1 class="text-center admin-panel-link"><a href="manage_books.html">Manage Books</a></h1>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="panel panel-default book white-background">
+						<div class="panel-heading">
+							<hr>
+							<h3><i class="fas fa-user fa-3x"></i></h3>
+							<hr>
+						</div>
+						<div class="panel-body">
+							<h1 class="text-center admin-panel-link"><a href="#">Manage Users</a></h1>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="panel panel-default book white-background">
+						<div class="panel-heading">
+							<hr>
+							<h3><i class="fas fa-retweet fa-3x"></i></h3>
+							<hr>
+						</div>
+						<div class="panel-body">
+							<h1 class="text-center admin-panel-link"><a href="#">Authorize Return</a></h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>
