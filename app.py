@@ -11,8 +11,9 @@ def index():
     return 'Hello, World'
 
 
-api.add_resource(Allbooks, '/api/v1/books')
-api.add_resource(Book, '/api/v1/book/<string:book_id>')
+api.add_resource(Books.CreateBook, '/api/v1/books')
+api.add_resource(Books.Book, '/api/v1/book/<string:book_id>')
+api.add_resource(Users.Createuser, '/api/v1/auth/register')
 
 
 if __name__ == '__main__':
