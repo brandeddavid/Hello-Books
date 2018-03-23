@@ -1,0 +1,48 @@
+body {
+  font-family: 'EB Garamond', serif;
+}
+.header{
+  background: url("../img/header1.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  min-height: 700px;
+  color: white;
+  padding-top: 50px;
+}
+
+.jumbotron {
+   background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background: rgba(200, 54, 54, 0.3); 
+   margin-top: 100px;
+}
+
+.bg-overlay{
+  background:rgba(0,0,0, 0.7);
+  min-height: 700px;
+}
+
+.about{
+  background: url("../img/about.jpg") no-repeat center fixed;
+  background-size: cover;
+  min-height: 700px;
+}
+
+.about-overlay{
+  
+  min-height: 700px !important;
+}
+
+.about-text {
+	margin-top: 150px;
+	color: white;
+	background: rgb(200, 54, 54);
+	background: rgba(200, 54, 54, 0.3); 
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
