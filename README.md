@@ -29,10 +29,14 @@ Here is the list of [dependencies](https://github.com/brandeddavid/Hello-Books/b
 
 Project's [GitHub Page](https://brandeddavid.github.io/Hello-Books/)
 
+## Project's URL
+
+Here is the project's [URL](https://brandeddavid.github.io/Hello-Books/designs/UI/index.html)
+
 ## Initial Application UI
 
-![Index Page](https://github.com/brandeddavid/Hello-Books/blob/master/designs/UI/screenshots/index.PNG "Index Page")
-![Borrow Books](https://github.com/brandeddavid/Hello-Books/blob/master/designs/UI/screenshots/borrow.PNG "Borrow Book")
+![Index Page](https://github.com/brandeddavid/Hello-Books/blob/master/designs/img/screenshots/indexpage.png "Index Page")
+![Borrow Books](https://github.com/brandeddavid/Hello-Books/blob/master/designs/img/screenshots/borrowpage.png "Borrow Book")
 
 ## Project Owner
 
