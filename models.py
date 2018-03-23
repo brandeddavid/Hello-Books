@@ -1,40 +1,53 @@
 from flask_restful import Resource, Api
-import json
 
 
+class Users(object):
 
-class Allbooks(Resource):
+    def __init__(self, fname, sname, username, password):
+        self.firstname = fname
+        self.sname = sname
+        self.username = username
+        self.password = password
 
-    def __init__(self):
+        self.users = []
 
-        self.books = [
-            {
-                'Title': 'The Lean Start Up',
-                'Author': 'Eric Ries'
-            },
-            {
-                'Title': 'Game of Thrones',
-                'Author': 'Georgr R.R. Martin'
-            }
-        ]
+    class Createuser(Resource):
 
-    def get(self):
+        def get(self):
 
-        return self.books
+            pass
 
-    def put(self, data):
+        def put(self):
 
-        self.books.append(data)
-        return json.dumps(self.books)
+            pass
 
 
-class Book(Resource):
+class Books(object):
 
-    def put(self):
+    def __init__(self, title, author, isbn, publisher, publish_date, edition):
 
-        pass
+        self.title = title
+        self.author = author
+        self.isbn = isbn
+        self.publisher = publisher
+        self.publish_date = publish_date
+        self.edition = edition
 
-    def get(self):
+        self.books = []
 
-        pass
+    class CreateBook(Resource):
+
+        def put(self):
+
+            pass
+
+        def get(self):
+
+            pass
+
+    class Book(Resource):
+
+        def get(self):
+
+            pass
 
