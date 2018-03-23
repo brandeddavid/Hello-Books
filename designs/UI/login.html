@@ -3,6 +3,7 @@
 <head>
 	<title>Log In | Hello Books</title>
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link href="http://fonts.googleapis.com/css?family=Dancing+Script:700|EB+Garamond" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
@@ -18,7 +19,7 @@
 	        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">About Us</a>
+	        <a class="nav-link" href="index.html#about">About Us</a>
 	      </li>
 	    </ul>
 	  </div>
@@ -31,22 +32,24 @@
 			<li class="nav-item">
 				<a class="nav-link" href="signup.html">Sign Up</a>
 			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="admin/home.html">Admin</a>
+			</li>
 		</ul>
 	</div>
 
 	</nav>
 
 
-	<div class="header">
-		<div class="bg-overlay">
-			<div class="container container-top">
+	<div class="container-top">
+			<div class="container">
 				<div class="row">
 					<div class="col-lg-4">
 						
 					</div>
 
 					<div class="col-lg-4">
-						<div class="login-form">
+						<div class="login-form white-background">
 							<form class="login">
 							  <div class="form-group">
 							    <label for="">Email address</label>
@@ -56,7 +59,7 @@
 							    <label for="">Password</label>
 							    <input type="password" class="form-control" id="password" placeholder="Password">
 							  </div>
-							  <button type="submit" class="btn btn-primary">Log In</button>
+							  <a href="profile.html" class="btn btn-primary">Log In</a>
 							</form>
 						</div>
 						
@@ -67,7 +70,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
 	</div>
 
 </body>
